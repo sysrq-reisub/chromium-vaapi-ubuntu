@@ -1,5 +1,6 @@
 # chromium-vaapi-ubuntu
 Set of modifications needed to compile Chromium with vaaapi support on Ubuntu, using the debian package sources
+Based on the Arch AUR https://aur.archlinux.org/packages/chromium-vaapi/
 
 - **chromium-vaapi.patch** in **debian/patches**
 - **series** in debian/patches with **chromium-vaapi.patch** on it, needed to apply the patch when the package is built
