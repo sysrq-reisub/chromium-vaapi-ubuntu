@@ -11,4 +11,3 @@ Set of modifications needed to compile Chromium with vaaapi support on Ubuntu, u
 
 ### Notes on AMD GPU's: 
 There is a bug with AMD GPU's https://bugs.freedesktop.org/show_bug.cgi?id=108937 not showing the correct color information to the device driver, the workaround needed is to edit your environment variables before running chromium with ```allow_rgb10_configs=false```
-- [x]
